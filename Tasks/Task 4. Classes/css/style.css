@@ -1,0 +1,33 @@
+li{
+    font-size: 30px;
+    color: #808080;
+   letter-spacing: 4px;
+   word-spacing: 6px;
+   list-style-type: none;
+   line-height: 60px;
+}
+.nct{
+    text-decoration: underline;
+}
+.ct+.nct {
+   text-decoration: overline;
+}
+.simple{
+    font-weight: 900;
+}
+.five{
+    text-shadow: rgb(241, 166, 25) 1px 0 10px;
+}
+.simple.five {
+    font-size: 35px;
+}
+.ct.degree{
+    color: rgba(233, 138, 209, .5);
+}
+.root{
+    opacity: 0;
+
+}
+.root:hover{
+    opacity: 1;
+}
