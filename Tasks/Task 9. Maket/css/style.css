@@ -10,8 +10,8 @@ div{
     width: 400px;
     height: 400px;
     position: absolute;
-    top: calc(50% - 200px);
-    left: calc(50% - 200px);
+    margin-top: 50%;
+    margin-right: 50%;
 }
 .h1{
     width: 100px;
