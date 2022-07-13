@@ -1,0 +1,113 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+.container{
+    
+}
+.header{
+    position: absolute;
+    
+}
+
+.header__logo{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+}
+.header__menu{
+    
+   
+    width: 300px;
+    height: 200px;
+    
+}
+
+.header__menu-inner{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+   
+    
+}
+.main__left{
+    width: 200px;
+    height: 300px;
+}
+.main__left-one,
+.main__left-two,
+.main__left-tree{
+    width: 200px;
+    height: 100px;
+    left: 0;
+    top: 200px;
+    background-color: blanchedalmond;
+}
+.main__center{
+    top: 200px;
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+}
+.main__center-top{
+    width: 200px;
+    height: 200px;
+   
+}
+.main__center-left,
+.main__center-right{
+    width: 100px;
+    height: 100px;
+}
+.main__center-left{
+    right: 0;
+}
+.main__right{
+    width: 300px;
+    height: 100px;
+    background-color: chocolate;
+    left: -300px;
+    top: 400px;
+}
+.main__right-one,
+.main__right-two,
+.main__right-tree{
+    width: 100px;
+    height: 100px;
+}
+.footer__left{
+    width: 200px;
+    height: 200px;
+    right: 500px;
+    top: 400px;
+    background-color: yellow;
+}
+.footer__center{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(206, 250, 9);
+    top: 400px;
+    right: 500px;
+}
+.footer__top{
+    top: 0;
+    width: 200px;
+    height: 100px;
+}
+.footer__bottom-left,
+.footer__bottom-right{
+    width: 100px;
+    height: 100px;
+}
+.footer__right{
+    width: 100px;
+    height: 200px;
+    background-color: darkslateblue;
+    top: 400px;
+    right: 500px;
+}
