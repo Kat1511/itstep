@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .cl-1{
     background: #cd5c5c;
 }
@@ -20,44 +25,41 @@
     background: #00ff00;
 }
 .cl-8{
-    background: #2e8b57;
-}
-.cl-9{
-    background: #006400;
-}
-.cl-10{
-    background: #9acd32;
-}
-.cl-11{
     background: #32cd32;
 }
-.cl-12{
+.cl-9{
     background: #00fa9a;
 }
-.cl-13{
+.cl-10{
     background: #808000;
 }
+.cl-11{
+    background: #;
+}
+.cl-12{
+    background: #;
+}
+.cl-13{
+    background: #;
+}
 .cl-14{
-    background: #adff2f;
+    background: #;
 }
 .cl-15{
-    background: #ffa07a;
+    background: #;
 }
 .cl-16{
-    background: #ff4500;
+    background: #;
 }
 .cl-17{
-    background: #bc8f8f;
+    background: #;
 }
 .cl-18{
-    background: #f4a460;
+    background: #;
 }
 .cl-19{
-    background: #8b4513;
+    background: #;
 }
 .cl-20{
-    background: #a52a2a;
-}
-.cl-21{
-    background: #d2691e;
+    background: #;
 }
