@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+   
+    max-width: 750px;
+    margin: 0 auto;
+    border: 1px solid #000;
+     display: flex;
+}
+.wrapper__form{
+   
+    width: 60%;
+    margin: 0 40px 16px;
+}
+.header{
+
+}
+.header__img{
+
+}
+.header__title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.wrapper__img{
+    width: 40%;
+}
+.wrapper__names{
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+.name{
+    margin-right: 10px;
+}
+.surname{
+
+}
+.wrapper__email{
+    display: flex;
+    
+}
+input{
+    padding: 8px 8px;
+}
+.email input{
+    width: 280px;
+    border: 1px solid #000;
+    border-right: none;
+}
+.gmail{
+   padding: 6px 12px;
+   border: 1px solid #000;
+   border-left: none;
+}
+.email__text,  .password__text{
+    font-size: 12px;
+    margin-bottom: 2px;
+    display: flex;
+    margin: -8px 0 10px;
+}
+.email__link{
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+}
+.wrapper__password{
+    display: flex;
+    margin-top: 20px;
+}
+.password{
+    margin-right: 10px;
+}
+.wrapper__btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.button{
+   border-color: blue .8;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 85px;
+    color: #fff;
+    background-color: rgba(0, 125, 215, 0.8);
+}
+.btn__link{
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px;
+}
+.btn__link:hover{
+    background-color: rgba(0, 125, 215, 0.2);
+
+}
+.wrapper__img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 98px;
+}
+.google__img{
+    width: 244px;
+    height: 244px;
+
+}
+.google__text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+}
