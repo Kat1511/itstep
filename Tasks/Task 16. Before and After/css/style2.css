@@ -1,3 +1,6 @@
+
+
+
 .wrapper-cat{
     width: 600px;
     margin: 200px auto;
@@ -46,7 +49,16 @@
     top: 133px;
     left: -22px;
     position: absolute;
+
 }
+.body:hover{
+    border-bottom: 205px solid rgb(243, 150, 9);
+    transition: 1s;
+}
+
+
+
+
 .body::after{
     content: "";
     width: 0;
@@ -80,6 +92,11 @@
     left: 37px;
     border: 5px solid #000;
 }
+.foot:hover{
+    background: rgb(245, 175, 45);
+    transition: 1s;
+}
+
 .right-foot{
     left: 85px;
 }
@@ -120,6 +137,17 @@
 .circle-right{
     left: 110px;
 }
+.circle:hover{
+    transition: 0.5s;
+    left: -5px;
+}
+
+
+.circle-right:hover{
+    left: 95px;
+}
+
+
 .circle-right::after{
  content: "";
  width: 15px;
@@ -153,6 +181,12 @@
     position: absolute;
     z-index: 55;
 }
+.nose:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
 .poison{
     width: 40px;
     height: 3px;
@@ -166,6 +200,9 @@
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+
+
 .poison-two{
     top: 110px;
     margin-bottom: 10px;
@@ -205,6 +242,8 @@
     box-shadow: 0px 0px #000;
 }
 
+
+
 .mouth-right{
     top: 104px;
     left: 82px;
@@ -220,6 +259,11 @@
     box-shadow: 0px 0px #000;
     transform: rotateY(180deg);
 }
+
+
+
+
+
 .claws{
     position: absolute;
     width: 4px;
