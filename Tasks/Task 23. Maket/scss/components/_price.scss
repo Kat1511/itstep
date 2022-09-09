@@ -1,0 +1,94 @@
+.price{
+    height: 500px;
+    background-color: #333;
+    
+}
+
+   
+.price__top{
+    display: flex;
+    flex-direction: column;
+    
+    
+    &_text{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #fff;
+        width: 1000px;
+        margin-top: 100px;
+
+    }
+
+    &_title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+        
+        
+    }
+}
+.price__bottom{
+   position: relative;
+    background-color: #FFCD42;
+    height: 300px;
+   
+    
+}
+.price__bottom-wrapeer{
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+.price__bottom_inner{
+    width: 393px;
+    height: 450px;
+    background-color: #fff;
+    position: absolute;
+    top: -150px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    &-logo{
+        // background-image: url(../img/price-logo.png);
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        margin: 39px 39px;
+        
+    &-img{
+        background-image: url(../img/price-1.jpg);
+        background-repeat: no-repeat;
+        width: 354px;
+        height: 125px;
+    }
+    &-title{
+        font-size: 20px;
+        color: #333;
+        margin: 25px 40px;
+        text-align: center;
+    }
+    &-text{
+        font-size: 14px;
+        line-height: 21px; 
+        color: #333;
+        width: 313px;
+        height: 84px; 
+        margin-left: 20px;
+        
+    }
+    &-btn{
+        
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 202px;
+        height: 52px;
+        background-color: #333;
+        padding: 15px;
+         margin-left: 20px;
+    }
+}
