@@ -172,10 +172,10 @@ a {
   margin-left: 20px;
 } 
 .img-2{
-  left: 405px;
+  left: 630px;
 }
 .img-3{
-  right: 20px;
+  right: 440px;
 }
 
 .info{
@@ -187,7 +187,8 @@ a {
   margin-top: 50px;
   position: relative;
   background-position: 0 -120px;
- 
+ display: flex;
+ justify-content: center;
 }
 .info-wrapper{
   width: 1220px;
@@ -229,7 +230,7 @@ a {
 }
 
 .form{
-  margin-top: 50px;
+  margin-top: 375px;
   background-image: url(../img/form-bg.jpg);
   background-repeat: no-repeat;
   width: 100%;
