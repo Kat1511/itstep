@@ -1,0 +1,75 @@
+$black: #000;
+$red: #F6523C;
+$white: #FFFFFF;
+$gray: #DFDFDF;
+$graylight: #F5F5F5;
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+  
+}
+a:visited{
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+ 
+}
+.container{
+   
+    margin: 0 70px;
+    @media (max-width: 1280px){
+         margin: 0 30px;
+    }
+}
+
+
+.btn{
+    color: $white;
+    align-items: center;
+    padding: 22px 50px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: $red;
+}
+.btn:hover{
+     background-color: $graylight;
+     color: $black;
+}
+// ul{
+   
+// }
+.red-span{
+    color: $red;
+}
+
+.bnt-watch{
+    padding: 10px 15px;
+    width: 175px;
+    height: 30px;
+    border: 1px solid #000000;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+   @media (max-width: 1280px){
+    width: 100px;
+   }
+}
+.bnt-watch:hover{
+    background-color: $red;
+    color: $white;
+    border: transparent;
+    fill: $white;
+}
+.bnt-watch_svg{
+ margin-top: 5px;
+ 
+}
+html, body {
+    width:100%;
+    overflow-x:hidden
+} 

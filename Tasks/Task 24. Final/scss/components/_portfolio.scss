@@ -1,0 +1,119 @@
+.portfolio__wrapper{
+    width: 100%;
+    display: flex;
+    margin: 80px 0;
+    @media (max-width: 780px){
+        flex-direction: column;
+        margin: 10px 0 20px;
+    }
+
+    .portfolio__head{
+        width: 20%;
+        margin-right: 30px;
+        @media (max-width: 1280px){
+            width: 40%;
+            margin-right: 5px;
+        }
+        @media (max-width: 780px){
+            width: 85%;
+            margin: 10px 0 35px 0;
+        }
+
+        &_title{
+            font-weight: 700;
+            font-size: 40px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            margin: 30px 0;
+            color: black;
+             @media (max-width: 1280px){
+                margin: 30px 0;
+             }
+        }
+        &_text{
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: 0.01em;
+            margin: 30px 0;
+
+
+        }
+        .blog-btn{
+
+            a{
+                color: black;
+
+            }
+            img{
+                margin-left: 10px;
+            }
+        }
+    }
+    .portfolio__inners{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+         @media (max-width: 1280px){
+            width: 52%;
+            
+        }
+        @media (max-width: 780px){
+             width: 100%;
+        }
+        @media (max-width: 480px){
+            flex-direction: column;
+        }
+
+        .portfolio__inner{
+           width: 20%;
+           margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            
+            &_img{
+                margin-bottom: 40px;
+                width: 400px;
+                
+                img{
+                   @media (max-width: 1280px){
+                    width: 18vw;
+                    }  
+                    @media (max-width: 780px){
+                        width: 33vw;
+                    }
+                    @media (max-width: 480px){
+                         width: 80%;
+                    }
+                }
+                
+            }
+            &_title{
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 18px;
+                width: 100%;
+            }
+            &_text{
+                font-weight: 300;
+                font-size: 18px;
+                
+                p{
+                    @media (max-width: 480px){
+                         width: 80vw;
+                         margin-bottom: 10px;
+                    }
+                   
+                }
+                 @media (max-width: 1280px){
+                    display: none;
+                 }
+                 @media (max-width: 480px){
+                    display: block;
+                    width: 100%;
+                 }
+                
+            }
+        }
+    }
+}
