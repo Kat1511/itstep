@@ -31,6 +31,9 @@
         margin-bottom: 150px;
         padding-right: 120px;
          @media (max-width: 1280px){
+            margin-bottom: 60px;
+         }
+          @media (max-width: 780px){
              padding-right: 10px;
          }
          @media (max-width: 480px){
@@ -50,7 +53,7 @@
             color: $white;
            margin-bottom: 20px;
            @media (max-width: 1280px){
-             font-size: 18px;
+             font-size: 16px;
            }
 
         }
@@ -59,7 +62,13 @@
             font-weight: 500;
             font-size: 20px;
              @media (max-width: 1280px){
-                 font-size: 16px;
+                 font-size: 14px;
+             }
+             p{
+                font-size: 20px;
+                @media (max-width: 1280px){
+                 font-size: 14px;
+             }
              }
         }
     }
