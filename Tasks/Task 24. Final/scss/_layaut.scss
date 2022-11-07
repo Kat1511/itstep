@@ -90,3 +90,11 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+.btn{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
