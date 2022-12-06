@@ -99,7 +99,7 @@ console.log(d.sort());
 // 14. Дан массив с числами. Создайте новый массив, состоящий из квадратов этих чисел.
 console.log("task14");
 d = [3, 4, 1, 2, 7];
-
+сум
 c = [];
 d.forEach(function(elem) {
 	c.push(elem * elem);
