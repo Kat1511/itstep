@@ -1,0 +1,59 @@
+body {
+    color: tan;
+    background-color: #000;}
+.block {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+}
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px dashed transparent;
+   
+}
+       
+    
+.c {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+   
+    transition: .5s linear;
+}
+.c1 {
+top: 0;
+left: 75px;
+background-color: blue;
+}
+.c2 {
+top: 110px;
+left: 10px;
+background-color: #e3b;
+}
+.c3 {
+top: 110px;
+right: 10px;
+background-color: orange;
+}
+.blue {
+background-color: blue;
+}
+.violet {
+background-color: #e3b;
+}
+.orange {
+background-color: orange;
+}
+
+.btns {
+width: 250px;
+margin-top: 30px;
+}
+.btn {
+padding: 5px;
+}
+      
+
