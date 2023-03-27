@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100%;
+}
+
+.box{
+    width: 800px;
+    height: 800px;
+    border: black solid 1px;
+    
+}
+.box > div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+.black{
+    background: black;
+}
+.white{
+    background: white;
+}
+
+.buttons{
+    bottom: 30px;
+}
+
+.chess{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: grey;
+    border-radius: 50%;
+}
+
+.player1{
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+.player2{
+    position: absolute;
+    top:50%;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}

@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    
+}
+.block{
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: blue;
+    border: 1px solid white;
+ 
+}
+.color{
+    color: white;
+}

@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.big-box{
+    width: 1000px;
+    height: 1000px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+     position: relative;
+    float: left;
+    border: 1px solid #fff;
+
+}
+.bg-black{
+    background: black;
+}
+.bg-white{
+    color: #fff;
+}
+.num{
+     color: #fff;
+    opacity: 0;
+    
+}
+.num2{
+    opacity: 1;
+}
+
+.follow-cursor {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #0d6efd;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute; 
+    transition: width 0.64s, height 0.64s, border-radius 0.64s, background 0.64s;
+  }
+
+  table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: rgb(154, 131, 236);
+}
+
+.hover{
+    background: rgb(245, 14, 45);
+}
+  
