@@ -1,0 +1,47 @@
+/* td{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+tr{
+	width: 500px;
+}
+.color{
+	background-color: black;
+} */
+/* 
+td {
+  width: 100px;
+height: 100px;
+  border: 2px solid #DDD;
+  padding: 3px;
+  text-align: center;
+ background-color: red;
+  cursor: pointer;
+}
+
+td.active {
+  background-color: black;
+}
+
+td.red{
+  background-color: red;
+} */
+table {
+  border: 1px;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  content: '';
+  border: 1px solid green;
+}
+
+td.active {
+  background: #ff0000;
+}
+
+td.neighbour {
+  background: #050000;
+}
