@@ -12,4 +12,4 @@ function num(string) {
       return count;
 }
 
-console.log(num('Yellow Submarine'));
+console.log(num('Yellow'));

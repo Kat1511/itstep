@@ -4,4 +4,4 @@ for(let i = 0; i<=100; i++){
     arr.push(Math.floor(Math.random() * 100) + 1) ;
 }
 
-console.log(`Разница между max и min ${Math.max(...arr) - Math.min(...arr) }`);
+console.log(`Разница  ${Math.max(...arr) - Math.min(...arr) }`);

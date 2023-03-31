@@ -1,7 +1,7 @@
 //5. Написать функцию, принимающая на вход массив дат и сортирующая их в порядке возрастания.
 let data = ["2011-11-15", "2001-11-15", "2022-11-11", "2007-11-15"];
 data.forEach(i =>{
-    let b = new Date(i).getTime();
+    let q = new Date(i).getTime();
     
-    console.log(Array.from(b))
+    console.log(Array.from(q))
 })
