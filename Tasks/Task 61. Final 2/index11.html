@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style11.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="" method="post" name="reg_form" class="reg-form" id="reg_form">
+                    <img src="./cake.png" alt="cake">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="name">Наименование продукта:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="name" id="name" value="" placeholder="Введите название">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="kod">Код товара:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="kod" id="kod" value="" placeholder="Введите код товара">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="price">Цена за шт:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="price" id="price" value="" placeholder="Введите цену товара">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="quantity">Количество:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="quantity" id="quantity" value="" placeholder="Введите количество">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <button type="submit">Добавить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="result">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th width="200">Название</th>
+                                <th width="200">Код товара</th>
+                                <th width="200">Цена за шт</th>
+                                <th width="200">Кол-во</th>
+                                <th width="200">Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="basket">
+    <h2>Корзина</h2>
+    <div class="basket_result" >пуста</div>
+</div>
+    <script src="./main11.js"></script>
+</body>
+</html>
